@@ -10,20 +10,22 @@
 	</head>
 	<body>
 		<!-- header -->
-		<div class="main">
-			<iframe class="header_frame" src="header.html"></iframe>
+		<div >
+			<iframe class="header_frame" src="{{ url_for('header') }}"></iframe>
 		</div>
 
 		<!-- slider -->
 		<div class="slideshow-container">
-			<iframe class="slider_frame" src="slider.html"></iframe>
+			<iframe class="slider_frame" src="{{ url_for('slider') }}"></iframe>
 		</div>
+
 
 		<!-- posts -->
 
-		<iframe class="postsAbout_frame" src="postAbout.html"></iframe>
-		<iframe class="postsService_frame" src="postService.html"></iframe>
-		<iframe class="postsGallery_frame" src="postGallery.html"></iframe>
+
+		<iframe class="postsAbout_frame" src="{{ url_for('post_about') }}"></iframe>
+		<iframe class="postsService_frame" src="{{ url_for('post_service') }}"></iframe>
+		<iframe class="postsGallery_frame" src="{{ url_for('post_gallery') }}"></iframe>
 	</body>
 	<!-- <script src="slider.js"></script> -->
 </html>
