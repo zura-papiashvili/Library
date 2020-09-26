@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "mrgvlovani";
+	font-style: normal;
+	src: url(bpg_mrgvlovani_caps_2010.ttf);
+}
+
+.bck {
+	background: red;
+}
+
+.bck2 {
+	background-color: yellow;
+}
+
+body {
+	margin: 0;
+	width: 1903px;
+	background: #f9f9f9;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: bold;
+	color: rgba(41, 41, 41, 0.75);
+	letter-spacing: 3px;
+}
+
+h1 {
+	font-family: mrgvlovani;
+}
+
+iframe {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: auto;
+	display: block;
+	overflow-y: none;
+	overflow-x: none;
+	box-sizing: border-box;
+}
+
+.header_frame {
+	height: 152px;
+}
+
+.slider_frame {
+	height: 860px;
+}
+
+.postsAbout_frame {
+	height: 870px;
+}
+
+.postsService_frame {
+	height: 870px;
+}
+
+.postsGallery_frame {
+	height: 970px;
+}

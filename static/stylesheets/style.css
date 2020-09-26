@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "mrgvlovani";
+	font-style: normal;
+	src: url(bpg_mrgvlovani_caps_2010.ttf);
+}
+
+.slideshow-container {
+	max-width: 100%;
+	height: 840px;
+	position: relative;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.container {
+	height: auto;
+	width: calc(100% - 200px);
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	/* background: orange; */
+}
+.sliderInfo_container button,
+.main_gallery_btn {
+	width: 240px;
+	height: 70px;
+	color: #0c3d93;
+	border: 1px solid #0c3d93;
+	font-family: mrgvlovani;
+	cursor: pointer;
+	font-size: 24px;
+	line-height: 33px;
+}
+
+.slider_btn_container {
+	/* background: green; */
+	position: absolute;
+	width: 160px;
+	display: flex;
+	justify-content: space-between;
+	bottom: 27px;
+	right: 140px;
+}

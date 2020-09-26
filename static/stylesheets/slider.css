@@ -1,0 +1,138 @@
+@font-face {
+	font-family: "mrgvlovani";
+	font-style: normal;
+	src: url(bpg_mrgvlovani_caps_2010.ttf);
+}
+/* .slideshow-container {
+	max-width: 100%;
+	height: 840px;
+	position: relative;
+	margin: auto;
+	margin-bottom: 30px;
+} */
+
+.slideshow-container div img {
+	width: 100%;
+	height: 100%;
+}
+
+.slider_btn_container {
+	/* background: green; */
+	position: absolute;
+	width: 160px;
+	display: flex;
+	justify-content: space-between;
+	bottom: 27px;
+	right: 140px;
+}
+.prev,
+.next {
+	border: 1px solid #f7f4f4;
+	cursor: pointer;
+	/* position: absolute; */
+	/* top: 50%; */
+	/* background: red; */
+	width: 70px;
+	height: 70px;
+	/* padding: 16px;
+	margin-top: -22px; */
+	color: #f2f2f2;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+/* .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.sliderInfo {
+	height: 300px;
+	width: 692px;
+	background: #ffffff;
+	/* background: red; */
+	opacity: 89%;
+	color: #f2f2f2;
+	font-size: 15px;
+	/* padding: 8px 12px; */
+	position: absolute;
+	bottom: 27px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.sliderInfo_container {
+	/* background: green; */
+	width: calc(100% - 140px);
+	color: #3c3c3c;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.sliderInfo_container h1 {
+	font-size: 47px;
+	line-height: 64px;
+	margin-top: 50px;
+}
+
+.sliderInfo_container p {
+	/* font-size: 24px;
+	line-height: 28px;
+	font-weight: bold; */
+	letter-spacing: 3px;
+}
+
+.sliderInfo_container button,
+.main_gallery_btn {
+	width: 240px;
+	height: 70px;
+	color: #0c3d93;
+	border: 1px solid #0c3d93;
+	font-family: mrgvlovani;
+	cursor: pointer;
+	font-size: 24px;
+	line-height: 33px;
+}
+.mySlides img {
+	max-width: 1903px;
+}
+/* Fading animation */
+.fade {
+	/* -webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s; */
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+/* @-webkit-keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+} */
+
+@keyframes fade {
+	from {
+		opacity: 0.8;
+	}
+	to {
+		opacity: 1;
+	}
+}
