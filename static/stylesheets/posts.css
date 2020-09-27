@@ -13,7 +13,8 @@
 	height: 100%;
 }
 
-.main_container .container {
+.main_container .container,
+.footer .container {
 	display: flex;
 	flex-direction: column;
 }

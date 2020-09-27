@@ -22,7 +22,7 @@
 	width: 160px;
 	display: flex;
 	justify-content: space-between;
-	bottom: 27px;
+	bottom: 10px;
 	right: 140px;
 }
 .prev,
@@ -70,7 +70,7 @@
 	font-size: 15px;
 	/* padding: 8px 12px; */
 	position: absolute;
-	bottom: 27px;
+	bottom: 7px;
 	display: flex;
 	flex-direction: row-reverse;
 }
