@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="../static/stylesheets/slider.css" />
-		<link rel="stylesheet" href="../static/stylesheets/main.css" />
-		<link rel="stylesheet" href="../static/stylesheets/style.css" />
-		<link rel="stylesheet" href="../static/stylesheets/posts.css" />
-		<title>Theatre</title>
-	</head>
-	<body>
-		<!-- slider -->
+{% extends "base.html" %}
+{% block content %}
+<!-- slider -->
 		<div class="slideshow-container">
 			<div class="mySlides fade">
 				<img src="../static/images/_MG_8663==.png" />
@@ -130,7 +120,6 @@
 		<!-- <iframe class="postsAbout_frame" src="postAbout.html"></iframe>
 		<iframe class="postsService_frame" src="postService.html"></iframe
 		><iframe class="postsGallery_frame" src="postGallery.html"></iframe> -->
-		<script src="slider.js"></script>
-	</body>
-	<!-- <script src="slider.js"></script> -->
-</html>
+		<script src={{ url_for('static',filename="stylesheets/slider.js")}}></script>
+{% endblock %}
+
