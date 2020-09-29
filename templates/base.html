@@ -50,7 +50,20 @@
 								</button>
 							</div>
 						</div>
-						<form>
+
+                        {% if check=="contact" %}
+                            <form action="{{url_for('send_mail')}}">
+                            {{ form.hidden_tag() }}
+                                {{ form.name( class = 'main_container_header main_gallery_header',placeholder="სახელი") }}
+                                {{ form.email(class = 'main_container_header main_gallery_header',placeholder="E-mail") }}
+                                {{ form.text(class = 'main_container_header main_gallery_header',placeholder="ტექსტი") }}
+                                <div class="main_gallery_btn_container">
+                                    {{ form.submit(class="main_gallery_btn") }}
+                                </div>
+                            </form>
+
+                        {% else %}
+                        <form>
 							<input
 								type="text"
 								name="name"
@@ -59,7 +72,7 @@
 							/>
 							<input
 								type="text"
-								name="name"
+								name="email"
 								placeholder="E-mail"
 								class="main_container_header main_gallery_header"
 							/>
@@ -71,8 +84,11 @@
 							/>
 						</form>
 						<div class="main_gallery_btn_container">
+
 							<button class="main_gallery_btn">იხილეთ მეტი</button>
 						</div>
+                        {% endif %}
+
 					</div>
 					<div class="map_container">
 						<h1 >აქანე დავდებ რუკასა</h1>
