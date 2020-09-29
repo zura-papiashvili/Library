@@ -37,13 +37,16 @@ def send_mail():
     user_name = data.get("name")
     user_mail = data.get("email")
     user_text = data.get("text")
-    msg = Message(user_name, sender='papiashvil@gmail.com', recipients=['papiashvil@gmail.com',user_mail])
-    msg.body = user_name+" "+user_mail+" "+user_text
-    msg.title = 'title'
-    mail.send(msg)
-    flash('Blog Post Created')
+    if user_text is not None:
+        # Grab the user from our User Models table
 
+        msg = Message(user_name, sender='papiashvil@gmail.com', recipients=['papiashvil@gmail.com',user_mail])
+        msg.body = f"Dear {user_name},\n your mail({user_text})was successfully sent to the company mail.\n\nBest Regards,\nZura "
+        msg.title = 'title'
+        mail.send(msg)
 
+        user_text=None
+        return render_template('contact.html', form=form, check="contact")
 
 
 
