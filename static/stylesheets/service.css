@@ -1,0 +1,154 @@
+.service-containerweb {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* background: cadetblue; */
+}
+
+.service-container {
+	width: 72%;
+	/* height: 200px; */
+	/* background: brown; */
+}
+
+.service-logoinfo {
+	/* background: burlywood; */
+}
+
+.service-container_header {
+	margin-top: 50px;
+	height: 120px;
+	width: 500px;
+	border-bottom: 3px solid rgba(41, 41, 41, 0.75);
+}
+
+.service-container_header h2 {
+	padding-bottom: 20px;
+}
+
+.service-info_container {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	/* background: coral; */
+	height: 500px;
+	align-items: center;
+}
+
+.service-info_container_information {
+}
+
+.service-info_container img {
+	width: 100%;
+	height: auto;
+}
+.service-info_container_information p {
+	height: 300px;
+	width: 540px;
+}
+
+.service-info_container_information div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.service-info_container_middle {
+	height: 340px;
+}
+
+.service-info_container_imgmiddle img {
+	left: 0;
+	position: absolute;
+	width: auto;
+	height: auto;
+}
+.service-container_header-middle {
+	margin-left: auto;
+	margin-right: 0;
+	margin-top: 50px;
+	height: 120px;
+	width: 600px;
+	text-align: end;
+}
+
+.service-container_header-middle div {
+	width: 540px;
+	border-bottom: 3px solid rgba(41, 41, 41, 0.75);
+	display: flex;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.serviceinfo_center {
+	align-items: center;
+}
+
+.service-logoinfo {
+	width: 18%;
+	text-align: center;
+	/* width: 100%; */
+	/* display: flex; */
+	/* justify-content: center; */
+	/* margin-top: 100px; */
+}
+
+.service-logo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 100px 0;
+}
+
+.service-logoinfo h4 {
+	width: 97%;
+}
+
+.service-line {
+	width: 260px;
+	opacity: 51%;
+	border: 1px solid #0c3d93;
+	margin: 30px auto;
+}
+
+.service2_para p {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 37px;
+	opacity: 75%;
+	width: 553px;
+	color: #292929;
+}
+
+.servvice2-container {
+	height: 750px;
+}
+
+.service-clock {
+	display: flex;
+	flex-direction: row;
+	width: 700px;
+	justify-content: space-between;
+	margin-top: -100px;
+}
+
+.service-clock div {
+	display: flex;
+	flex-direction: column;
+
+	height: 350px;
+	justify-content: space-between;
+}
+.service-time {
+	width: 210px;
+}
+.servic-price {
+	width: 330px;
+}
+
+.servicemaincontainer {
+	margin-bottom: 100px;
+}
