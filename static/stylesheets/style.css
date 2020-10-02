@@ -21,7 +21,8 @@
 	/* background: orange; */
 }
 .sliderInfo_container button,
-.main_gallery_btn {
+.main_gallery_btn,
+button {
 	width: 240px;
 	height: 70px;
 	color: #0c3d93;
@@ -38,6 +39,6 @@
 	width: 160px;
 	display: flex;
 	justify-content: space-between;
-	bottom: 10px;
+	bottom: 0px;
 	right: 140px;
 }

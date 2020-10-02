@@ -104,6 +104,7 @@ body {
 	line-height: 33px;
 	color: #292929;
 	opacity: 75%;
+	outline: none;
 }
 
 .footer_facebook {
@@ -129,10 +130,16 @@ body {
 }
 
 .map_container {
-	background: green;
+	/* background: green; */
 	width: 675px;
 	height: 425px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.map_container iframe {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #0c3d93;
 }

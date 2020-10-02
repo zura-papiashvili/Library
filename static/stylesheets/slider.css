@@ -22,8 +22,12 @@
 	width: 160px;
 	display: flex;
 	justify-content: space-between;
-	bottom: 10px;
+	margin: 10px;
 	right: 140px;
+	bottom: 0;
+}
+.sliderInfo button {
+	margin-bottom: 10px;
 }
 .prev,
 .next {
@@ -70,7 +74,7 @@
 	font-size: 15px;
 	/* padding: 8px 12px; */
 	position: absolute;
-	bottom: 7px;
+	bottom: 0px;
 	display: flex;
 	flex-direction: row-reverse;
 }
@@ -117,6 +121,10 @@
 	-webkit-animation-duration: 1.5s; */
 	animation-name: fade;
 	animation-duration: 1.5s;
+}
+
+.mySlides {
+	position: absolute;
 }
 
 /* @-webkit-keyframes fade {

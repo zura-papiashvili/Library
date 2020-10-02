@@ -39,6 +39,7 @@
 .main_service_img div {
 	position: absolute;
 	left: 0;
+	width: 960px;
 }
 
 .main_service img {

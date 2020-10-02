@@ -1,0 +1,136 @@
+@media screen and (max-width: 1800px) {
+	.main_service img {
+		width: 90%;
+		height: 90%;
+	}
+	.main_service_img div {
+		width: 750px;
+	}
+	.about_info {
+		width: 50%;
+	}
+	.slideshow-container {
+		height: 750px;
+	}
+	.main_gallery_container {
+		height: 900px;
+	}
+}
+
+@media screen and (max-width: 1700px) {
+	.service-info_container_middle {
+		width: 700px;
+	}
+	.service-info_container_middle img {
+		width: 500px;
+	}
+	.service-info_container_information p {
+		width: 100%;
+	}
+	.service-info_container_information {
+		width: fit-content;
+	}
+}
+@media screen and (max-width: 1440px) {
+	.map_container {
+		width: 500px;
+	}
+	.main_container_header h1 {
+		font-size: 2.5rem;
+	}
+	.main_gallery_header {
+		width: 400px;
+	}
+
+	.header {
+		height: 130px;
+	}
+	.fooret_names {
+		height: 90px;
+	}
+	.footer {
+		height: 750px;
+	}
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	.slideshow-container {
+		height: 650px;
+	}
+	.main_service {
+		margin-top: 40px;
+		height: 600px;
+	}
+	.main_container {
+		height: 800px;
+	}
+	.service_info button {
+		margin: 20px auto;
+	}
+	.main_service img {
+		width: 75%;
+		/* height: 90%; */
+	}
+
+	.main_gallery_img img {
+		width: 100%;
+	}
+	.imgmedia {
+		margin: auto 20px;
+	}
+	.aboutus-main {
+		height: auto;
+	}
+	.aboutus_reverse {
+		height: 700px;
+	}
+	p {
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	h1 {
+		font-size: 54px !important;
+	}
+
+	.mainservicemedia {
+		height: 460px;
+	}
+	.galleryinfo {
+		height: 460px;
+		margin-bottom: 0;
+	}
+	.service-info_container_information {
+		width: 700px;
+	}
+	.service-info_container_middle {
+		width: 700px;
+	}
+	.service-info_container_middle img {
+		width: 500px;
+	}
+	.service-info_container_information p {
+		width: 100%;
+	}
+	h2 {
+		font-size: 35px;
+	}
+	.service2_para p {
+		font-size: 24px;
+	}
+	.servvice2-container {
+		height: 540px;
+	}
+	.service-time {
+		width: 100px;
+	}
+	.servic-price {
+		width: 165px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	.service-clock {
+		width: 450px;
+	}
+}
