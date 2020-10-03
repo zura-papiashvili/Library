@@ -20,7 +20,7 @@
 					<div><span>ჩვენ შესახებ</span></div>
 					<div><span>სერვისები</span></div>
 					<div><span>გალერეა</span></div>
-					<div><span><a href="{{ url_for('send_mail') }}">კონტაქტი</a></span></div>
+					<div><span><a style="color: white" href="{{ url_for('send_mail') }}">კონტაქტი</a></span></div>
 				</div>
 				<div class="language">
 					<span>GEO</span>
@@ -50,44 +50,23 @@
 								</button>
 							</div>
 						</div>
-
-                        {% if check=="contact" %}
-                            <form action="{{url_for('send_mail')}}">
+                        <form method="POST">
                             {{ form.hidden_tag() }}
-                                {{ form.name( class = 'main_container_header main_gallery_header',placeholder="სახელი") }}
-                                {{ form.email(class = 'main_container_header main_gallery_header',placeholder="E-mail") }}
-                                {{ form.text(class = 'main_container_header main_gallery_header',placeholder="ტექსტი") }}
-                                <div class="main_gallery_btn_container">
-                                    {{ form.submit(class="main_gallery_btn") }}
-                                </div>
-                            </form>
+                            {{ form.user_name(class="main_container_header main_gallery_header") }}
+                            {{ form.user_mail(class="main_container_header main_gallery_header") }}
+                            {{ form.user_text(class="main_container_header main_gallery_header") }}
+                            <div class="main_gallery_btn_container">
 
-                        {% else %}
-                        <form>
-							<input
-								type="text"
-								name="name"
-								placeholder="სახელი"
-								class="main_container_header main_gallery_header"
-							/>
-							<input
-								type="text"
-								name="email"
-								placeholder="E-mail"
-								class="main_container_header main_gallery_header"
-							/>
-							<input
-								type="text"
-								name="text"
-								placeholder="ტექსტი"
-								class="main_container_header main_gallery_header"
-							/>
-						</form>
-						<div class="main_gallery_btn_container">
+                                {{ form.submit(class="main_gallery_btn") }}
+						    </div>
 
-							<button class="main_gallery_btn">იხილეთ მეტი</button>
-						</div>
-                        {% endif %}
+
+
+                        </form>
+
+
+
+
 
 					</div>
 					<div class="map_container">
