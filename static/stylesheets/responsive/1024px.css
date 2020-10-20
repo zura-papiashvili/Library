@@ -97,4 +97,30 @@
 	.main_about {
 		height: auto;
 	}
+
+	.aboutus_info {
+		width: auto;
+	}
+
+	.map_container {
+		width: 400px;
+		height: 350px;
+	}
+	.main_gallery_header {
+		width: 300px;
+	}
+	.logo {
+		height: 45px;
+		width: 45px;
+		margin: auto;
+	}
+
+	.logo img {
+		width: 30px;
+		height: auto;
+	}
+
+	.header{
+		font-size: 1rem;
+	}
 }

@@ -125,3 +125,10 @@
 .main_gallery_container {
 	height: 970px;
 }
+
+.mainpg_info {
+	color: #3c3c3c;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
