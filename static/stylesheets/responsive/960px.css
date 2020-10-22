@@ -1,0 +1,41 @@
+@media screen and (max-width: 960px) {
+	.container {
+		width: calc(100% - 100px);
+	}
+
+	.main_container_header h1 {
+		font-size: 1.5rem;
+	}
+	.service-info_container_middle img {
+		width: 450px;
+	}
+	.main_container_header {
+		display: flex;
+		justify-content: center;
+	}
+	.main_service {
+		margin-top: 0px;
+	}
+	.main_service_img div {
+		display: flex;
+		justify-content: center;
+	}
+	.homepage-post-resp {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.service_header {
+		padding-bottom: 5px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.sliderInfo_container p {
+		letter-spacing: 1px;
+		text-align: center;
+	}
+	.main_container .container {
+		align-items: center;
+	}
+}

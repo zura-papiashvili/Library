@@ -52,6 +52,12 @@ h3 {
 	color: rgba(41, 41, 41, 0.75);
 }
 
+a {
+	text-decoration: none;
+	color: #fcfafa;
+	cursor: pointer;
+}
+
 /* iframe {
 	border: none;
 	padding: 0px;

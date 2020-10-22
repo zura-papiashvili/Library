@@ -12,7 +12,9 @@
 		<link rel="stylesheet" href="../static/stylesheets/responsive/1440px.css" />
 		<link rel="stylesheet" href="../static/stylesheets/responsive/1366px.css" />
 
-		<link rel="stylesheet" href="../static/stylesheets/responsive/1024px.css" />
+		<link rel="stylesheet" href="../static/stylesheets/responsive/1024px.css" />		
+		<link rel="stylesheet" href="../static/stylesheets/responsive/960px.css" />
+		<link rel="stylesheet" href="../static/stylesheets/responsive/480px.css" />
 		<title>Document</title>
 	</head>
 	<body>
@@ -22,10 +24,10 @@
 					<img src="../static/images/Group -2.png" />
 				</div>
 				<div class="menu menunone">
-					<div><span>ჩვენ შესახებ</span></div>
-					<div><span>სერვისები</span></div>
-					<div><span>გალერეა</span></div>
-					<div><span>კონტაქტი</span></div>
+					<div><a>ჩვენ შესახებ</a></div>
+					<div><a>სერვისები</a></div>
+					<div><a>გალერეა</a></div>
+					<div><a>კონტაქტი</a></div>
 				</div>
 				<div class="language">
 					<span>GEO</span>
@@ -38,6 +40,13 @@
 				</div>
 			</div>
 		</header>
+		<div class="nav" id="menu">
+			<div><a >ჩვენ შესახებ</a></div>
+				<div><a>სერვისები</a></div>
+					<div><a>გალერეა</a></div>
+					<div><a>კონტაქტი</a></div>
+
+		</div>
 		<footer class="footer">
 			<div class="container footer_conrain">
 				<div class="main_container_header main_gallery_header">
@@ -98,8 +107,10 @@
 		</footer>
 	</body>
 	<script>
+		var munu=document.getElementById("menu")
 		function myFunction(x) {
 			x.classList.toggle("change");
+			munu.classList.toggle("block")
 		}
 	</script>
 </html>
