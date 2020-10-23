@@ -1,0 +1,126 @@
+@media screen and (max-width: 1024px) {
+	.none {
+		display: none;
+	}
+	.sliderInfo {
+		height: 140px;
+		width: 240px;
+	}
+	.sliderInfo_container button,
+	.main_gallery_btn {
+		width: 140px;
+		height: 40px;
+		font-size: 14px;
+	}
+
+	.slider_btn_container {
+		right: 10px;
+		bottom: 0;
+		width: 100px;
+	}
+	.prev,
+	.next {
+		width: 40px;
+		height: 40px;
+		font-size: 12px;
+	}
+	.slideshow-container {
+		height: 450px;
+	}
+	p {
+		text-align: justify;
+	}
+
+	.main_about_img {
+		position: relative;
+	}
+	.column {
+		display: flex;
+		flex-direction: column;
+	}
+	.responsive-homepg {
+		height: 365px;
+		width: 100%;
+	}
+	.main_about_img div {
+		display: flex;
+		justify-content: center;
+	}
+	.main_service_img div {
+		position: relative;
+	}
+
+	.main_gallery {
+		height: 350px;
+	}
+	.main_gallery_container {
+		height: auto;
+	}
+	.aboutusInfo {
+		left: calc(50% - 140px);
+		height: 100px;
+		width: 280px;
+	}
+	h1 {
+		font-size: 36px;
+	}
+
+	.aboutusInfo div h1 {
+		font-size: 36px;
+	}
+
+	.aboutusInfo div {
+	}
+
+	.service-info_container {
+		height: auto;
+	}
+
+	.service-container {
+		width: 100%;
+	}
+	.servvice2-container {
+		margin-top: 20px;
+	}
+
+	.service-clock div {
+		height: 300px;
+	}
+	.service-info_container_information p {
+		padding: 20px;
+	}
+	.space {
+		margin: 0;
+		height: 250px;
+	}
+
+	.main_about {
+		height: auto;
+	}
+
+	.aboutus_info {
+		width: auto;
+	}
+
+	.map_container {
+		width: 400px;
+		height: 350px;
+	}
+	.main_gallery_header {
+		width: 300px;
+	}
+	.logo {
+		height: 45px;
+		width: 45px;
+		margin: auto;
+	}
+
+	.logo img {
+		width: 30px;
+		height: auto;
+	}
+
+	.header{
+		font-size: 1rem;
+	}
+}

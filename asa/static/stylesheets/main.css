@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "mrgvlovani";
+	font-style: normal;
+	src: url(bpg_mrgvlovani_caps_2010.ttf);
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	/* width: 1903px; */
+	background: #f9f9f9;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: bold;
+	color: rgba(41, 41, 41, 0.75);
+	letter-spacing: 3px;
+}
+
+h1 {
+	font-family: mrgvlovani;
+}
+h2 {
+	font-size: 40px;
+	line-height: 54px;
+	font-family: mrgvlovani;
+	color: rgba(41, 41, 41, 0.75);
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 25px;
+	font-family: mrgvlovani;
+	opacity: 75%;
+	color: rgba(41, 41, 41, 0.75);
+}
+
+h3 {
+	font-size: 32px;
+	line-height: 44px;
+	font-family: mrgvlovani;
+	opacity: 75%;
+	color: rgba(41, 41, 41, 0.75);
+}
+
+a {
+	text-decoration: none;
+	color: #fcfafa;
+	cursor: pointer;
+}
+
+/* iframe {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: auto;
+	display: block;
+	overflow-y: none;
+	overflow-x: none;
+	box-sizing: border-box;
+}
+
+.header_frame {
+	height: 152px;
+}
+
+.slider_frame {
+	height: 860px;
+}
+
+.postsAbout_frame {
+	height: 870px;
+}
+
+.postsService_frame {
+	height: 870px;
+}
+
+.postsGallery_frame {
+	height: 970px;
+} */

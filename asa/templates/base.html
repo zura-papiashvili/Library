@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../static/stylesheets/style.css" />
+		<link rel="stylesheet" href="../static/stylesheets/main.css" />
+		<link rel="stylesheet" href="../static/stylesheets/posts.css" />
+		<link rel="stylesheet" href="../static/stylesheets/header.css" />
+		<link rel="stylesheet" href="../static/stylesheets/slider.css" />
+		<link rel="stylesheet" href="../static/stylesheets/hover.css" />
+		<link rel="stylesheet" href="../static/stylesheets/responsive/1440px.css" />
+		<link rel="stylesheet" href="../static/stylesheets/responsive/1366px.css" />
+		<link rel="stylesheet" href="../static/stylesheets/responsive/1024px.css" />
+		<link rel="stylesheet" href="../static/stylesheets/responsive/960px.css" />
+		<link rel="stylesheet" href="../static/stylesheets/responsive/480px.css" />
+		<script src="../static/stylesheets/slider.js"></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="logo">
+					<img src="../static/images/Group -2.png" />
+				</div>
+				<div class="menu menunone">
+					<div><a>ჩვენ შესახებ</a></div>
+					<div><a>სერვისები</a></div>
+					<div><a>გალერეა</a></div>
+					<div><a>კონტაქტი</a></div>
+				</div>
+				<div class="language">
+					<span>GEO</span>
+					<span>EN</span>
+				</div>
+				<div class="burger burgerblock" onclick="myFunction(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+			</div>
+		</header>
+		<div class="nav" id="menu">
+			<div><a>ჩვენ შესახებ</a></div>
+			<div><a>სერვისები</a></div>
+			<div><a>გალერეა</a></div>
+			<div><a>კონტაქტი</a></div>
+		</div>
+		<footer class="footer">
+			<div class="container footer_conrain">
+				<div class="main_container_header main_gallery_header">
+					<h1>კონტაქტი</h1>
+				</div>
+				<div class="footer_container">
+					<div class="form_container">
+						<div class="fooret_names">
+							<div>
+								<span>Georgia, Tbilisi</span>
+								<span>Phone: +995 322 00 00 00</span>
+								<span>Email: info@gmail.com</span>
+							</div>
+							<div>
+								<button class="footer_facebook">
+									<img src="../static/images/facebook-logo (1).png" />
+								</button>
+							</div>
+						</div>
+						<form>
+							<input
+								type="text"
+								name="name"
+								placeholder="სახელი"
+								class="main_container_header main_gallery_header"
+							/>
+							<input
+								type="text"
+								name="name"
+								placeholder="E-mail"
+								class="main_container_header main_gallery_header"
+							/>
+							<input
+								type="text"
+								name="text"
+								placeholder="ტექსტი"
+								class="main_container_header main_gallery_header"
+							/>
+						</form>
+						<div class="main_gallery_btn_container">
+							<button class="main_gallery_btn">გაგზავნა</button>
+						</div>
+					</div>
+					<div class="map_container">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1182.2450166932701!2d44.798795250954974!3d41.697407574630766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440ce62260ffcb%3A0xf8c0ba1e8febcce5!2sGeorgian%20Museum%20of%20Fine%20Arts!5e0!3m2!1sen!2sge!4v1601280825330!5m2!1sen!2sge"
+							width="600"
+							height="450"
+							frameborder="0"
+							style="border: 0"
+							allowfullscreen=""
+							aria-hidden="false"
+							tabindex="0"
+						></iframe>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script>
+		var munu = document.getElementById("menu");
+		function myFunction(x) {
+			x.classList.toggle("change");
+			munu.classList.toggle("block");
+		}
+	</script>
+</html>
